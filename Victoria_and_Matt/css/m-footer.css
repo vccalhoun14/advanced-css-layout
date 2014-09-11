@@ -1,7 +1,7 @@
 .m-footer {
   font-size: 1em;
-  /*border: 3em;*/
-  padding-top: 0.5em;
+  border: 3em;
+  padding: 20px 0 0 0;
 }
 
 .m-footer-social {
