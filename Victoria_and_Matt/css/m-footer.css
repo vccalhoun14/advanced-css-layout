@@ -1,18 +1,20 @@
 .m-footer {
   font-size: 1em;
-  border: 3em;
+  /*border: 3em;*/
   padding-top: 0.5em;
 }
 
- .m-footer-image, .m-footer-social {
-  float:right;
-  padding: 1em;
-  width: 5em;
-  display: inline-block;
+.m-footer-social {
+  text-align: center;
 }
 
-.m-footer-location {
-  padding-left: 1em;
+.icon-twitter, .icon-pinterest, .icon-facebook, .icon-github {
+  padding: 0 15px;
+}
+
+.m-footer-image {
+  width: 5em;
+  float: right;
 }
 
 @font-face {
@@ -60,4 +62,16 @@
 }
 .icon-uniE600:before {
   content: "\e600";
+}
+
+/*Icon Size and Color*/
+.m-footer-social a:link {
+  color:#000;
+  font-size: 2em;
+  text-decoration: none;
+}
+
+/*mouse over link*/
+.m-footer-social a:hover{
+  color:#FF00FF;
 }
