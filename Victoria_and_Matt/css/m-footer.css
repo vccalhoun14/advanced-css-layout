@@ -7,6 +7,7 @@
 
 .m-footer-location--text{
   padding: 0 0 0 2em;
+  font-family: 'Roboto', sans-serif;
 }
 
 .m-footer-social {
@@ -31,71 +32,4 @@
   width: 5em;
   float: right;
   padding: 0 1.5em 0 0;
-}
-
-
-/****** ICON FONTS *****/
-
-@font-face {
-  font-family: 'icomoon';
-  src:url('fonts/icomoon.eot?fovora');
-  src:url('fonts/icomoon.eot?#iefixfovora') format('embedded-opentype'),
-    url('fonts/icomoon.woff?fovora') format('woff'),
-    url('fonts/icomoon.ttf?fovora') format('truetype'),
-    url('fonts/icomoon.svg?fovora#icomoon') format('svg');
-  font-weight: normal;
-  font-style: normal;
-}
-
-[class^="icon-"], [class*=" icon-"] {
-  font-family: 'icomoon';
-  speak: none;
-  font-style: normal;
-  font-weight: normal;
-  font-variant: normal;
-  text-transform: none;
-  line-height: 1;
-
-  /* Better Font Rendering =========== */
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
-.icon-github:before {
-  content: "\e606";
-}
-.icon-uniE605:before {
-  content: "\e605";
-}
-.icon-uniE604:before {
-  content: "\e604";
-}
-.icon-facebook:before {
-  content: "\e603";
-}
-.icon-pinterest:before {
-  content: "\e602";
-}
-.icon-twitter:before {
-  content: "\e601";
-}
-.icon-uniE600:before {
-  content: "\e600";
-}
-
-@media only screen and (max-width: 480px) {
-  .m-footer-location {
-    text-align: center;
-  }
-
-  .m-footer-location--text {
-    padding: 0;
-  }
-
-  .m-footer-logo--image {
-    float: none;
-    display: block;
-    padding: 0;
-    margin: 0 auto;
-  }
 }
