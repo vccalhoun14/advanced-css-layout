@@ -3,8 +3,11 @@
 }
 
 .m-github-image {
-  width: 15%;
+  width: 4em;
   border-radius: 50%;
 }
 
+.figure {
+  text-align: center;
+}
 
