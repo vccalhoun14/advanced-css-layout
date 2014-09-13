@@ -34,30 +34,21 @@ body {
     margin: 0;
 }
 
-width: 4em;
-  border-radius: 50%;
-/* Address variable `h1` font-size and margin within `section` and `article` contexts in Firefox 4+, Safari 5, and Chrome.*/
-
-h1 {
-    font-size: 2em;
-    margin: 0.67em 0;
-}
-
 /* moved from font.css */
 h1, p {
   font-family: 'Indie Flower', cursive;
+}
+
+/* Address variable `h1` font-size and margin within `section` and `article` contexts in Firefox 4+, Safari 5, and Chrome.*/
+h1 {
+    font-size: 2em;
+    margin: 0.67em 0;
 }
 
 /*Address inconsistent and variable font size in all browsers.*/
 
 small {
     font-size: 80%;
-}
-
-hr {
-    -moz-box-sizing: content-box;
-    box-sizing: content-box;
-    height: 0;
 }
 
 /****** ICON FONTS *****/
